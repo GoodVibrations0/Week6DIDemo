@@ -1,6 +1,6 @@
 ﻿namespace DIDemo
 {
-    public class ContactDataService
+    public class ContactDataService : IContactDataService
     {
         List<Person> _contacts;
 
